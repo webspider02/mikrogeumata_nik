@@ -1,0 +1,5 @@
+div#root > div.header {
+    background-color: var(--header-footer-bg);
+    height: 100px;
+    width: 100%;
+  }

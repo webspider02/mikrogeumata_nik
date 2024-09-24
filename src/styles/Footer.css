@@ -1,0 +1,30 @@
+div#root > div.footer {
+    background-color: var(--header-footer-bg);
+    position: relative;
+    height: 300px;
+    width: 100%;
+    bottom: 0;
+}
+  
+div#root > div.footer > div.footer-flex-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div#root > div.footer > div.footer-flex-box > div.google-map > h3 {
+    text-align: center;
+    padding: 15px;
+}
+
+div#root > div.footer > div.footer-flexbox2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+  div#root > div.footer > p {
+    text-align: center;
+    padding-top: 25px;
+  }

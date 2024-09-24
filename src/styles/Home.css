@@ -1,0 +1,4 @@
+div#root > div.home {
+    overflow: auto;
+    padding: 20px;
+}

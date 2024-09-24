@@ -1,0 +1,25 @@
+:root {
+  --header-footer-bg: #dc2f02;
+  --bg-color: #a4ac86;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--bg-color)
+}
+
+div#root {
+  position: relative;
+  min-height: 100vh;
+}
+
+@import './styles/Header.css';
+@import './styles/Footer.css';
+@import './styles/Home.css';
