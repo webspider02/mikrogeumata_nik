@@ -1,5 +1,5 @@
 :root {
-  --header-footer-bg: #dc2f02;
+  --header-footer-bg: linear-gradient(#dc2f02, #f4a261);
   --bg-color: #a4ac86;
 }
 

@@ -1,9 +1,11 @@
 div#root > div.footer {
-    background-color: var(--header-footer-bg);
+    background: var(--header-footer-bg);
     position: relative;
     height: 300px;
     width: 100%;
     bottom: 0;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
   
 div#root > div.footer > div.footer-flex-box {
@@ -17,14 +19,45 @@ div#root > div.footer > div.footer-flex-box > div.google-map > h3 {
     padding: 15px;
 }
 
-div#root > div.footer > div.footer-flexbox2 {
+div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-  div#root > div.footer > p {
-    text-align: center;
-    padding-top: 25px;
-  }
+div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div#root > div.footer >div.footer-flex-box > div.footer-flexbox2 > div.social-media > button {
+  width: 200px;
+  height:50px;
+  border-radius: 5px;
+  background: #023e8a;
+  color: #f8f7ff;
+  border:none;
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 24px 0 rgba(0, 0, 0, 0.19);}
+
+div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-media > button:hover {
+  color: #023e8a;
+  background: #f8f7ff;
+  transition: 0.5;
+}
+
+div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.contact-info > h3 {
+  /* text-align: center; */
+  margin-bottom: 5px;
+}
+
+
+div#root > div.footer > p {
+  text-align: center;
+  padding-top: 25px;
+}
