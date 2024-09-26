@@ -1,6 +1,7 @@
 :root {
   --header-footer-bg: linear-gradient(#dc2f02, #f4a261);
   --bg-color: #a4ac86;
+  --nav-buttons-bg: #8a0000;
 }
 
 * {

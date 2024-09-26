@@ -11,19 +11,19 @@ export default function Footer() {
 
                 <div className="footer-flexbox2">  
                     <div className="social-media">
-                        <button>Facebook</button>
+                        <a href="https://www.facebook.com/nikfood1" target="_blank" rel="noreferrer">
+                            <button>Facebook</button>          
+                        </a> 
                     </div> 
 
                     <div className="contact-info">
                         <h3>Επικοινωνία</h3>
-                        <p>Τηλ. 210 123 4567</p>
-                        <p>Email: 5Gc8T@example.com</p>
-                        <p>Διευθυνση: Νεα Ελλάδα</p>
+                        <p>Τηλ. 2441040660</p>
+                        <p>Κινητ. 6985981047</p>
+                        <p>Διευθυνση: Αργοναύτων 1, Καρδίτσα 43100</p>
                     </div>
                 </div>
-
             </div>
-
 
             <p>Copyright &copy; {date} Μικρογεύματα Nik</p>
         </div>

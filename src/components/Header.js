@@ -1,18 +1,31 @@
 export default function Header() {
     return (
         <div className="header">
-            
-            <ul className="#">
-                <a href="https:google.com"><li>Αρχική</li></a>
-                <li>
-                    <a href="#">Κατάλογος</a>
-                </li>
-                <li>
-                    <a href="#">Επικοινωνία</a>
-                </li>
-                <li>
-                    <a href="#">Σχετικά Με Εμάς</a>
-                </li>
+            <a href='#'>
+                <img src="../images/nik.png" alt="logo" />    
+            </a>
+
+            <ul className="header-flex">
+                <a href="#">
+                    <li>
+                        <p>Αρχική</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <p>Κατάλογος</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <p>Επικοινωνία</p>
+                    </li>
+                </a>
+                <a href="#">
+                    <li>
+                        <p>Σχετικά Με Εμάς</p>
+                    </li>
+                </a>
             </ul>
         </div>
     )

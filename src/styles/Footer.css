@@ -32,7 +32,7 @@ div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-m
   align-items: center;
 }
 
-div#root > div.footer >div.footer-flex-box > div.footer-flexbox2 > div.social-media > button {
+div#root > div.footer >div.footer-flex-box > div.footer-flexbox2 > div.social-media > a > button {
   width: 200px;
   height:50px;
   border-radius: 5px;
@@ -45,7 +45,7 @@ div#root > div.footer >div.footer-flex-box > div.footer-flexbox2 > div.social-me
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 24px 0 rgba(0, 0, 0, 0.19);}
 
-div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-media > button:hover {
+div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-media> a > button:hover {
   color: #023e8a;
   background: #f8f7ff;
   transition: 0.5;
