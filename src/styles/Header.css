@@ -2,7 +2,8 @@ div#root > div.header {
     background: var(--header-footer-bg);
     height: 100px;
     width: 100%;
-    position: sticky;
+    /* position: sticky;
+    top: 0; */
   }
 
 div#root > div.header > a > img {
