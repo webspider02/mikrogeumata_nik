@@ -1,34 +1,35 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import '../styles/Header.css';
 
 export default function Header() {
     return (
         <div className="header">
-            <a href='./Home.js'>
+            <Link to='/'>
                 <img src="../images/nik.png" alt="logo" />    
-            </a>
+            </Link>
 
             <ul className="header-flex">
-                <a href="./Home.js">
+                <Link to="/">
                     <li>
                         <p>Αρχική</p>
                     </li>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/menu">
                     <li>
                         <p>Κατάλογος</p>
                     </li>
-                </a>
-                <a href="./Contact.js">
+                </Link>
+                <Link to="/contact">
                     <li>
                         <p>Επικοινωνία</p>
                     </li>
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="/about">
                     <li>
                         <p>Σχετικά Με Εμάς</p>
                     </li>
-                </a>
+                </Link>
             </ul>
         </div>
     )

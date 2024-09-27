@@ -1,6 +1,6 @@
 div#root > div.footer {
     background: var(--header-footer-bg);
-    position: relative;
+    position: absolute;
     height: 300px;
     width: 100%;
     bottom: 0;

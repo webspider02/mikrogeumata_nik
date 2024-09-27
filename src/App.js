@@ -4,7 +4,9 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import Home from './components/Home';
 import Contact from './components/Contact';
-import './App.css';
+import About from './components/About';
+import Menu from './components/Menu';
+import './index.css'
 
 function App() {
   return (
@@ -12,10 +14,12 @@ function App() {
       <Header />
 
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" exact element={<Home />} />
+        <Route path="/menu" exact element={<Menu />} />
+        <Route path="/contact" exact element={<Contact />} />
+        <Route path="/about" exact element={<About />} />
       </Routes>
-      
+
       <Footer />
     </HashRouter>
   )
