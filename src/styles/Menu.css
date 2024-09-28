@@ -1,0 +1,39 @@
+div#root > div.page-container > div.menu {
+    padding: 0px;
+    width: 100%;
+    /* height: 1300px; */
+    height: 100%;
+    background: var(--page-bg-color);
+    border: 5px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+div#root > div.page-container > div.menu > ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 20px;
+    /* flex-wrap: wrap; */
+    /* align-items: center; */
+}
+
+div#root > div.page-container > div.menu > ul > h3 {
+    text-align: center;
+    border: 1px solid yellow;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: var(--nav-buttons-bg);
+    color: white;
+    margin-bottom: 10px;
+}
+
+div#root > div.page-container > div.menu > ul > li {
+    margin: 5px;
+}

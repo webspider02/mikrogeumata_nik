@@ -2,6 +2,9 @@
   --header-footer-bg: linear-gradient(#dc2f02, #f4a261);
   --bg-color: #a4ac86;
   --nav-buttons-bg: #8a0000;
+  --page-bg-color: #001219;
+  --text-color: #e9d8a6;
+  --border-color: #ca6702;
 }
 
 * {
@@ -21,6 +24,16 @@ div#root {
   min-height: 100vh;
 }
 
+div#root > div.page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
 @import './styles/Header.css';
 @import './styles/Footer.css';
 @import './styles/Home.css';
+@import './styles/Menu.css';
+@import './styles/Contact.css';
+/* @import './styles/About.css'; */
