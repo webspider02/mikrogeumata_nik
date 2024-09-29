@@ -198,33 +198,80 @@ export default function Menu() {
                 </ul>                
                 <ul>
                     <h3>Σαλάτες</h3>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <p>Αγγουροντομάτα: 3,00€</p>
+                    </li>
+                    <li>
+                        <p>Μαρούλι: 3,00€</p>
+                    </li>
+                    <li>
+                        <p>Χωριάτικη: 5,00€</p>
+                    </li>
+                    <li>
+                        <p>Σεφ: 5,00€</p>
+                    </li>
+                    <li>
+                        <p>Ceaser's: 5,00€</p>
+                    </li>
                 </ul>                
                 <ul>
                     <h3>Ορεκτικά</h3>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <p>Πατάτες (μερίδα): 2,50€</p>
+                    </li>
                 </ul>                
                 <ul>
                     <h3>Αλοιφές</h3>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <p>Τζατζίκι: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Τυροσαλάτα: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Ουγγαρέζα: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Μαγιονέζα: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Μπριζολάκι: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Σως μουστάρδας: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Σως κέτσαπ: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Σως γιαουρτιού: 2,00€</p>
+                    </li>
                 </ul>                
                 <ul>
                     <h3>Τεμάχια</h3>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <p>Χειροποίητο χοιρινό σουβλάκι: 1,80€</p>
+                        <p>με μπριζόλα και πέτο (120gr)</p>
+                        <p>(με ψωμάκι ή πιτούλα δωρεάν)</p>
+                    </li>
+                    <li>
+                        <p>Kοτόπουλο (στήθος, 120gr): 1,90€</p>
+                    </li>
+                    <li>
+                        <p>Λουκάνικο χωριάτικο: 1,90€</p>
+                    </li>
                 </ul>                
                 <ul>
                     <h3>Αναψυκτικά</h3>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
+                    <li>
+                        <p>Coca Cola 330ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Coca Cola Zero 330ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Coca Cola Light 330ml: 1,20€</p>
+                    </li>
                 </ul>                
                 <ul>
                     <h3>Χυμοί Μπύρες Κρασί</h3>
