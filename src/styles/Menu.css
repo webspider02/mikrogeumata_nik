@@ -16,9 +16,9 @@ div#root > div.page-container > div.menu {
 
 div#root > div.page-container > div.menu > ul {
     list-style-type: none;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    display: block;
+    /* flex-direction: column;
+    justify-content: space-around; */
     margin: 20px;
     /* flex-wrap: wrap; */
     /* align-items: center; */
@@ -36,4 +36,22 @@ div#root > div.page-container > div.menu > ul > h3 {
 
 div#root > div.page-container > div.menu > ul > li {
     margin: 5px;
+}
+
+div#root > div.page-container > div.menu > ul.mpagketes {
+    display: block;
+}
+
+div#root > div.page-container > div.menu > ul.mpagketes > li > h5 {
+    color: red;
+    font-family:'Gill Sans'
+    , 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-top: 20px;
+}
+
+div#root > div.page-container > div.menu > ul > li.extra {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    color: yellow;
+    margin-top: 10px;
 }
