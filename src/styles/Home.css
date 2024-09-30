@@ -1,4 +1,44 @@
-div#root > div.home {
-    overflow: auto;
-    padding: 20px;
+div#root > div.page-container > div.home {
+    /* padding: 10px; */
+    box-sizing: border-box;
+    width: 1000px;
+    height: 700px;
+    background: var(--page-bg-color);
+    border: 5px solid var(--border-color);
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+    color: var(--text-color);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
+
+div#root > div.page-container > div.home > div.img-cards {
+    margin: 20px 20px 20px 0;
+    width: 450px;
+    height: 450px;
+    border: 3px solid black;
+}
+
+div#root > div.page-container > div.home > div.img-cards > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+div#root > div.page-container > div.home > div#home-button > a > button {
+    margin: 10px;
+    padding: 20px 50px 20px 50px;
+    border: 2px solid var(--border-color);
+    background-color: var(--nav-buttons-bg);
+    color: var(--text-color);
+    font-size: 32px;
+    cursor: pointer;
+}
+
+div#root > div.page-container > div.home > div#home-button > a > button:hover {
+    background-color: var(--text-color);
+    color: var(--nav-buttons-bg);
+    transition: 0.5s;
+}   

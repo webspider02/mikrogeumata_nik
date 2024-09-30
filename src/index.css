@@ -36,4 +36,4 @@ div#root > div.page-container {
 @import './styles/Home.css';
 @import './styles/Menu.css';
 @import './styles/Contact.css';
-/* @import './styles/About.css'; */
+@import './styles/About.css';

@@ -8,6 +8,7 @@ div#root > div.page-container > div.menu {
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     color: var(--text-color);
+    display: inline-block;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -24,18 +25,19 @@ div#root > div.page-container > div.menu > ul {
     /* align-items: center; */
 }
 
-div#root > div.page-container > div.menu > ul > h3 {
+div#root > div.page-container > div.menu > ul  > h3 {
     text-align: center;
     border: 1px solid yellow;
-    padding: 5px;
+    padding:5px;
     border-radius: 10px;
     background-color: var(--nav-buttons-bg);
     color: white;
     margin-bottom: 10px;
+    width:300px; 
 }
 
 div#root > div.page-container > div.menu > ul > li {
-    margin: 5px;
+    margin: 5px; 
 }
 
 div#root > div.page-container > div.menu > ul.mpagketes {

@@ -1,4 +1,4 @@
-import react from 'react';
+// import react from 'react';
 // import '../styles/Menu.css';
 
 export default function Menu() {
@@ -68,24 +68,46 @@ export default function Menu() {
                         <p>Φιλέτο κοτόπουλο: 3,80€</p>
                         <p>(σως μουστάρδας, ντομάτα, πατάτες)</p>
                     </li>
-                </ul>                
-                <ul className="mpagketes">
-                    <h3>Μπαγκέτα</h3>
-                    <li>
-                        <p>Μπαγκέτα λευκή: 2,80€</p>
-                        <p>Μπαγκέτα ολικής: 2,80€</p>
-                    </li>
-                    <li>
-                        <h5>Δεν χρησιμοποιούμε κατεψυγμένα κρέατα</h5>
-                    </li>
-                </ul>                
+                </ul>
                 <ul>
-                    <h3>Σάντουιτς με Κυπριακή</h3>
+                    <h3>Χυμοί Μπύρες Κρασί</h3>
                     <li>
-                        <p>Γύρος χοιρινός: 3,80€</p>
-                        <p>(τζατζίκι, ντομάτα, κρεμμύδι, μουστάρδα, πατάτες)</p>
+                        <p>Amita Motion 330ml: 1,50€</p>
                     </li>
-                </ul>                
+                    <li>
+                        <p>Amita Motion πορτοκάλι 330ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Amita Motion ανάμεικτος 250ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Amita Ροδάκινο 250ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Amita Βύσσινο  250ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Frulite Ανανάς 330ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Frulite Φράουλα 330ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Frulite Μανταρίνι 330ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Frulite Μπανάνα - Βύσσινο 330ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>ΑΛΦΑ 330ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Amstel Μπουκάλι: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Αρετσίνωτο: 3,00€</p>
+                    </li>
+                </ul>                                          
                 <ul>
                     <h3>Σκεπαστή</h3>
                     <li>
@@ -137,6 +159,33 @@ export default function Menu() {
                     <li>
                         <p>Ποικιλία αλλαντικών: 4,00€</p>
                         <p>(πατάτες, ντομάτα +σως της επιλογής σας)</p>
+                    </li>
+                </ul>   
+                <ul>
+                    <h3>Αλοιφές</h3>
+                    <li>
+                        <p>Τζατζίκι: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Τυροσαλάτα: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Ουγγαρέζα: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Μαγιονέζα: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Μπριζολάκι: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Σως μουστάρδας: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Σως κέτσαπ: 2,00€</p>
+                    </li>
+                    <li>
+                        <p>Σως γιαουρτιού: 2,00€</p>
                     </li>
                 </ul>                
                 <ul>
@@ -195,6 +244,51 @@ export default function Menu() {
                     <li className="extra">
                         <p>*Eξτρα πίτα 0,50€</p>
                     </li>
+                </ul>   
+                <ul>
+                    <h3>Αναψυκτικά</h3>
+                    <li>
+                        <p>Coca Cola 330ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Coca Cola Zero 330ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Coca Cola Light 330ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Green Cola 330ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Coca Cola 500ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Coca Cola Zero 500ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Coca Cola Light 500ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Green Cola 500ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Fanda πορτοκάλι 300ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Fanda πορτοκάλι 500ml: 1,50€</p>
+                    </li>
+                    <li>
+                        <p>Fanda λεμόνι 300ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Sprite 330ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Soda 330ml: 1,20€</p>
+                    </li>
+                    <li>
+                        <p>Nestea 330ml: 1,20€</p>
+                    </li>
                 </ul>                
                 <ul>
                     <h3>Σαλάτες</h3>
@@ -213,40 +307,7 @@ export default function Menu() {
                     <li>
                         <p>Ceaser's: 5,00€</p>
                     </li>
-                </ul>                
-                <ul>
-                    <h3>Ορεκτικά</h3>
-                    <li>
-                        <p>Πατάτες (μερίδα): 2,50€</p>
-                    </li>
-                </ul>                
-                <ul>
-                    <h3>Αλοιφές</h3>
-                    <li>
-                        <p>Τζατζίκι: 2,00€</p>
-                    </li>
-                    <li>
-                        <p>Τυροσαλάτα: 2,00€</p>
-                    </li>
-                    <li>
-                        <p>Ουγγαρέζα: 2,00€</p>
-                    </li>
-                    <li>
-                        <p>Μαγιονέζα: 2,00€</p>
-                    </li>
-                    <li>
-                        <p>Μπριζολάκι: 2,00€</p>
-                    </li>
-                    <li>
-                        <p>Σως μουστάρδας: 2,00€</p>
-                    </li>
-                    <li>
-                        <p>Σως κέτσαπ: 2,00€</p>
-                    </li>
-                    <li>
-                        <p>Σως γιαουρτιού: 2,00€</p>
-                    </li>
-                </ul>                
+                </ul>                                                       
                 <ul>
                     <h3>Τεμάχια</h3>
                     <li>
@@ -260,25 +321,31 @@ export default function Menu() {
                     <li>
                         <p>Λουκάνικο χωριάτικο: 1,90€</p>
                     </li>
-                </ul>                
-                <ul>
-                    <h3>Αναψυκτικά</h3>
-                    <li>
-                        <p>Coca Cola 330ml: 1,20€</p>
-                    </li>
-                    <li>
-                        <p>Coca Cola Zero 330ml: 1,20€</p>
-                    </li>
-                    <li>
-                        <p>Coca Cola Light 330ml: 1,20€</p>
-                    </li>
-                </ul>                
-                <ul>
-                    <h3>Χυμοί Μπύρες Κρασί</h3>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/about">About</a></li>
-                    <li><a href="/contact">Contact</a></li>
                 </ul>
+                <ul>
+                    <h3>Σάντουιτς με Κυπριακή</h3>
+
+                    <li>
+                        <p>Γύρος χοιρινός: 3,80€</p>
+                        <p>(τζατζίκι, ντομάτα, κρεμμύδι, μουστάρδα, πατάτες)</p>
+                    </li>
+                </ul>   
+                <ul className="mpagketes">
+                    <h3>Μπαγκέτα</h3>
+                    <li>
+                        <p>Μπαγκέτα λευκή: 2,80€</p>
+                        <p>Μπαγκέτα ολικής: 2,80€</p>
+                    </li>
+                    <li>
+                        <h5>Δεν χρησιμοποιούμε κατεψυγμένα κρέατα</h5>
+                    </li>
+                </ul>     
+                <ul>
+                    <h3>Ορεκτικά</h3>
+                    <li>
+                        <p>Πατάτες (μερίδα): 2,50€</p>
+                    </li>
+                </ul>                 
             </div>
         </div>
     );
