@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/mikrogeumata_nik/static/css/main.550c26bc.css",
+    "main.js": "/mikrogeumata_nik/static/js/main.bf1cdb99.js",
+    "static/js/453.1763c5d4.chunk.js": "/mikrogeumata_nik/static/js/453.1763c5d4.chunk.js",
+    "index.html": "/mikrogeumata_nik/index.html",
+    "main.550c26bc.css.map": "/mikrogeumata_nik/static/css/main.550c26bc.css.map",
+    "main.bf1cdb99.js.map": "/mikrogeumata_nik/static/js/main.bf1cdb99.js.map",
+    "453.1763c5d4.chunk.js.map": "/mikrogeumata_nik/static/js/453.1763c5d4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.550c26bc.css",
+    "static/js/main.bf1cdb99.js"
+  ]
+}
