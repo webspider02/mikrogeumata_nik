@@ -33,3 +33,9 @@ div#root > div.header > ul.header-flex > a > li {
 div#root > div.header > ul.header-flex > a > li > p:hover {
   opacity: 0.7;
 }
+
+@media only screen and (max-width: 690px) {
+    div#root > div.header > ul.header-flex > a {
+      display: none;
+    }
+}

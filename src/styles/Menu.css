@@ -8,21 +8,21 @@ div#root > div.page-container > div.menu {
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
     color: var(--text-color);
-    display: inline-block;
-    display: flex;
-    flex-direction: row;
+    display: block
+    
+    /* flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-around; */
 }
 
 div#root > div.page-container > div.menu > ul {
     list-style-type: none;
     display: block;
-    /* flex-direction: column;
-    justify-content: space-around; */
-    margin: 20px;
-    /* flex-wrap: wrap; */
-    /* align-items: center; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;  */
+    margin-top: 20px;
 }
 
 div#root > div.page-container > div.menu > ul  > h3 {
@@ -34,10 +34,13 @@ div#root > div.page-container > div.menu > ul  > h3 {
     color: white;
     margin-bottom: 10px;
     width:300px; 
+    margin-left: auto;
+    margin-right: auto;
 }
 
 div#root > div.page-container > div.menu > ul > li {
     margin: 5px; 
+    text-align: center;
 }
 
 div#root > div.page-container > div.menu > ul.mpagketes {

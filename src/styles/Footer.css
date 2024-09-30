@@ -1,7 +1,7 @@
 div#root > div.footer {
     background: var(--header-footer-bg);
     position: relative;
-    height: 300px;
+    height: 100%;
     width: 100%;
     bottom: 0vh;
     color: white;
@@ -60,4 +60,16 @@ div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.contact-
 div#root > div.footer > p {
   text-align: center;
   padding-top: 25px;
+}
+
+@media only screen and (max-width: 990px) {
+  div#root > div.footer > div.footer-flex-box {
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  };
+
+  div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 {
+    margin-top: 20px;
+  };
 }
