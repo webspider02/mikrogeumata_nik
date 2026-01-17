@@ -6,7 +6,7 @@ export default function Header() {
     return (
         <div className="header">
             <Link to='/'>
-                <img src="../images/nik.png" alt="logo" />    
+                <img src={process.env.PUBLIC_URL + '/images/nik.png'} alt="logo" />    
             </Link>
 
             <ul className="header-flex">

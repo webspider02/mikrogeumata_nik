@@ -1,4 +1,4 @@
-div#root > div.footer {
+div#root > div.app-container >  div.footer {
     background: var(--header-footer-bg);
     position: relative;
     height: 100%;
@@ -8,31 +8,31 @@ div#root > div.footer {
     font-family: Arial, Helvetica, sans-serif;
 }
   
-div#root > div.footer > div.footer-flex-box {
+div#root > div.app-container > div.footer > div.footer-flex-box {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-div#root > div.footer > div.footer-flex-box > div.google-map > h3 {
+div#root > div.app-container > div.footer > div.footer-flex-box > div.google-map > h3 {
     text-align: center;
     padding: 15px;
 }
 
-div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 {
+div#root > div.app-container > div.footer > div.footer-flex-box > div.footer-flexbox2 {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
 }
 
-div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-media {
+div#root > div.app-container > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-media {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-div#root > div.footer >div.footer-flex-box > div.footer-flexbox2 > div.social-media > a > button {
+div#root > div.app-container >  div.footer >div.footer-flex-box > div.footer-flexbox2 > div.social-media > a > button {
   width: 200px;
   height:50px;
   border-radius: 5px;
@@ -45,31 +45,30 @@ div#root > div.footer >div.footer-flex-box > div.footer-flexbox2 > div.social-me
   cursor: pointer;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 24px 0 rgba(0, 0, 0, 0.19);}
 
-div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-media> a > button:hover {
+div#root > div.app-container > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.social-media> a > button:hover {
   color: #023e8a;
   background: #f8f7ff;
   transition: 0.5;
 }
 
-div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.contact-info > h3 {
-  /* text-align: center; */
+div#root > div.app-container > div.footer > div.footer-flex-box > div.footer-flexbox2 > div.contact-info > h3 {
   margin-bottom: 5px;
 }
 
 
-div#root > div.footer > p {
+div#root > div.app-container > div.footer > p {
   text-align: center;
   padding-top: 25px;
 }
 
 @media only screen and (max-width: 990px) {
-  div#root > div.footer > div.footer-flex-box {
+  div#root > div.app-container > div.footer > div.footer-flex-box {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   };
 
-  div#root > div.footer > div.footer-flex-box > div.footer-flexbox2 {
+  div#root > div.app-container > div.footer > div.footer-flex-box > div.footer-flexbox2 {
     margin-top: 20px;
   };
 }

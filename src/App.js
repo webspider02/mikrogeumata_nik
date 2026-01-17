@@ -11,16 +11,20 @@ import './index.css'
 function App() {
   return (
     <HashRouter>
-      <Header />
+      <div className="app-container">
+        <Header />
+        
+        <main className="content">
+          <Routes>
+            <Route path="/" exact element={<Home />} />
+            <Route path="/menu" exact element={<Menu />} />
+            <Route path="/contact" exact element={<Contact />} />
+            <Route path="/about" exact element={<About />} />
+          </Routes>
+        </main>
 
-      <Routes>
-        <Route path="/" exact element={<Home />} />
-        <Route path="/menu" exact element={<Menu />} />
-        <Route path="/contact" exact element={<Contact />} />
-        <Route path="/about" exact element={<About />} />
-      </Routes>
-
-      <Footer />
+        <Footer />
+      </div>
     </HashRouter>
   )
 }

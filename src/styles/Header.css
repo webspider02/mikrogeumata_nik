@@ -1,18 +1,16 @@
-div#root > div.header {
+div#root > div.app-container > div.header {
     background: var(--header-footer-bg);
     height: 100px;
     width: 100%;
-    /* position: sticky;
-    top: 0; */
   }
 
-div#root > div.header > a > img {
+div#root > div.app-container > div.header > a > img {
     height: 100px;
     width: 200px;
     float: left;
 }
 
-div#root > div.header > ul.header-flex {
+div#root > div.app-container > div.header > ul.header-flex {
     list-style-type: none;
     margin: 30px 20px 0 0;
     float: right;
@@ -21,7 +19,7 @@ div#root > div.header > ul.header-flex {
     justify-content: space-around;
 }
 
-div#root > div.header > ul.header-flex > a > li {
+div#root > div.app-container > div.header > ul.header-flex > a > li {
     padding: 10px;
     border: 2px solid black;
     background-color: var(--nav-buttons-bg);
@@ -30,12 +28,12 @@ div#root > div.header > ul.header-flex > a > li {
     margin-left: 5px;
 }
 
-div#root > div.header > ul.header-flex > a > li > p:hover {
+div#root > div.app-container > div.header > ul.header-flex > a > li > p:hover {
   opacity: 0.7;
 }
 
 @media only screen and (max-width: 690px) {
-    div#root > div.header > ul.header-flex > a {
+    div#root > div.app-container > div.header > ul.header-flex > a {
       display: none;
     }
 }

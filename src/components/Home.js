@@ -7,10 +7,10 @@ export default function Home() {
         <div className="page-container">
             <div className="home">
                 <div className="img-cards">
-                    <img src="../images/magazi.jpg" alt="magazi.png" />
+                    <img src={process.env.PUBLIC_URL + '/images/magazi.jpg'} alt="magazi.png" />
                 </div>
                 <div className="img-cards">
-                    <img src="../images/gyros.jpg" alt="mikrogeumata.png" />
+                    <img src={process.env.PUBLIC_URL + '/images/gyros.jpg'} alt="mikrogeumata.png" />
                 </div>
                 <div id="home-button">
                     <Link to="/menu">
