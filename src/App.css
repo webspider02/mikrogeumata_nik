@@ -8,32 +8,39 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  outline: none;
-  text-decoration: none;
 }
 
 body {
-  background-color: var(--bg-color)
-}
-
-div#root {
-  position: relative;
+  background-color: var(--bg-color);
   min-height: 100vh;
 }
 
-.app-container {
+/* Το βασικό container */
+div#root > .app-container {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  min-height: 100vh; /* Υποχρεωτικό για να ξέρει το footer πού είναι ο πάτος */
 }
 
-.content {
-  flex: 1; 
+/* Το main tag (Routes) */
+div#root > .app-container > main.content {
+  flex: 1; /* Αυτό σπρώχνει το Footer κάτω */
+  display: flex;
+  justify-content: center; /* Κεντράρει οριζόντια το περιεχόμενο */
+  align-items: center;     /* Κεντράρει κάθετα το περιεχόμενο */
+  width: 100%;
+  align-self: center;
+}
+
+/* Το Footer */
+div#root > .app-container > div.footer {
+  width: 100%;
+  margin-top: auto; /* Δικλείδα ασφαλείας για το sticky footer */
 }
 
 @import './styles/Header.css';
 @import './styles/Footer.css';
 @import './styles/Home.css';
-
+@import './styles/Menu.css';
+@import './styles/Contact.css';
+@import './styles/About.css';
