@@ -15,27 +15,25 @@ body {
   min-height: 100vh;
 }
 
-/* Το βασικό container */
+
 div#root > .app-container {
   display: flex;
   flex-direction: column;
-  min-height: 100vh; /* Υποχρεωτικό για να ξέρει το footer πού είναι ο πάτος */
+  min-height: 100vh; 
 }
 
-/* Το main tag (Routes) */
 div#root > .app-container > main.content {
-  flex: 1; /* Αυτό σπρώχνει το Footer κάτω */
+  flex: 1; 
   display: flex;
-  justify-content: center; /* Κεντράρει οριζόντια το περιεχόμενο */
-  align-items: center;     /* Κεντράρει κάθετα το περιεχόμενο */
+  justify-content: center; 
+  align-items: center;     
   width: 100%;
   align-self: center;
 }
 
-/* Το Footer */
 div#root > .app-container > div.footer {
   width: 100%;
-  margin-top: auto; /* Δικλείδα ασφαλείας για το sticky footer */
+  margin-top: auto;
 }
 
 @import './styles/Header.css';
